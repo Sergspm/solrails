@@ -79,21 +79,21 @@
         document.addEventListener('gestureend', (e) => preventZoom(e));
     </script>
     <style>
-     #component--trackEditor.delay {
-      margin-bottom: 0;
-      top: 50vh
-     }
-     #component--cameraMode.animated {
-      margin-bottom: 15vh;
-     }
+      #component--trackEditor.delay {
+        margin-bottom: 0;
+        top: 50vh;
+      }
+      #component--cameraMode.animated {
+        margin-bottom: 15vh;
+      }
     </style>
-    <script type="module" crossorigin src="/index.cdf5916b.js?v16"></script>
+    <script type="module" crossorigin src="/index.cdf5916b.js?v17"></script>
     <link rel="stylesheet" href="/index.a886b8d1.css?v5" />
   </head>
   <body>
     <canvas id="canvas"></canvas>
     <div id="ui">
-      <section class="page" id="page--preloader" style="margin-bottom: 20vh;">
+      <section class="page" id="page--preloader" style="margin-bottom: 20vh">
         <div id="preloader-clouds"></div>
         <div class="page--content">
           <div class="preloader-lottie wiggle-logo">
@@ -490,12 +490,16 @@
             </div>
           </section>
           s
-          <footer id="component--footer" class="hide-scrollbar" style="margin-bottom: 10vh;">
+          <footer
+            id="component--footer"
+            class="hide-scrollbar"
+            style="margin-bottom: 10vh"
+          >
             <div class="footer-mode-wrapper hide-scrollbar">
               <section
                 class="component hide-scrollbar"
                 id="component--trackEditor"
-                style="margin-bottom: 15vh;"
+                style="margin-bottom: 15vh"
               >
                 <div class="trackEditor-btn-wrapper">
                   <button
@@ -583,7 +587,7 @@
             <section
               class="component"
               id="component--switch-mode"
-              style="margin-bottom: 15vh;"
+              style="margin-bottom: 15vh"
               data-mouse-hover
             >
               <label class="switch switch-mode" id="switch-mode-btn">

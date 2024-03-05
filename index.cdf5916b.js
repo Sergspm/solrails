@@ -50945,7 +50945,7 @@ for (
             },
             {
               type: 'diffuseNight',
-              src: '/assets/textures/tracks/station/hires/station_diffuse_night.v2.png',
+              src: '/assets/textures/tracks/station/hires/station_diffuse_night.v3.png',
               weight: properties.isHiresSetting
                 ? properties.jpgwebp
                   ? 102
