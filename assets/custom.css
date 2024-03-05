@@ -1,0 +1,37 @@
+@font-face {
+  font-family: fredokasemibold;
+  src: url(/assets/fonts/fredoka/fredoka-semi-bold.woff2) format('woff2'),
+    url(/assets/fonts/fredoka/fredoka-semi-bold.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.iframe-3d {
+  width: 100%;
+  height: 90vh;
+}
+
+.b-header {
+  z-index: 9999999;
+  width: fit-content;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.b-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+}
+
+.b-header nav a {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  font-family: fredokasemibold;
+  white-space: nowrap;
+}
