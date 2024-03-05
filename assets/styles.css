@@ -216,23 +216,24 @@
 .top-vector1{
     width: 200px;
     position: absolute;
-    right: 300px;
-    top: 1050px;
+    right: -5vw;
+    top: 0;
+    z-index: 2;
 }
 
 .top-vector2{
     width: 350px;
     position: absolute;
-    right: 40px;
-    top: 775px;
+    right: -19vw;
+    top: -30vh;
     z-index: 2;
 }
 
 .top-vector3{
     width: 350px;
     position: absolute;
-    left: 240px;
-    top: 630px;
+    left: -39vw;
+    top: -42vh;
     z-index: 2;
 }
 
