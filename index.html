@@ -1638,6 +1638,9 @@
         isPreview: false,
       };
     </script>
+    <script>
+      const togglePhases = popupId => () => document.getElementById(popupId).classList.toggle('hidden')    
+    </script>
     <style>
       g[clip-path="url(#__lottie_element_2)"] g g g path {
         fill: #5D1AAE
@@ -1708,7 +1711,7 @@
     <link rel="stylesheet" href="/assets/styles.css">
   </head>
   <body class="flex flex-col">
-    <iframe src="/3d.html?v28" class="iframe-3d" style="height: 132.5vh;"></iframe>
+    <iframe src="/3d.html?v27" class="iframe-3d" style="height: 132.5vh;"></iframe>
 
     <header
       id="top"
@@ -2055,32 +2058,154 @@
               </div>
             </div>
           </section>
-          <div>
-            
-          </div>
+          <section class="about-section w-full">
+            <div class="section section-1 w-full">
+              <div class="side-left">
+                <h2 class="header-about">About</h2>
+              </div>
+              <div class="side-right">
+                <p class="about-description">
+                  <span class="text-part">
+                    We are inspired by our love of creating projects that look fun and engaging. 
+                  </span>
+                  <span class="text-part">
+                    Projects that promote positive ways in which our audience can utilize technology 
+                  </span>
+                  <span class="text-part">
+                    Unleash your creativity in a safe and playful environment through a familiar activity loved by all ages.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="section section-2 w-full">
+              <div class="side-left">
+                <div class="text-content">
+                  <h3>The journey with RAILS extends beyond the tracks</h3>
+                  <span>As we introduce our dedicated meme-token, we invite you to join our thriving community.</span>
+                </div>
+                <div class="image-content">
+                  <img src="assets/static/png/Map-svg.png" alt="">
+                </div>
+              </div>
+              <div class="side-right w-full">
+                <div class="text-content">
+                  <h3>Embrace the adventure, build your <br> legacy, and invest in the fun with <br> “$RAILS”</h3>
+                  <span>Follow @rails on Twitter and Telegram and be part of the digital revolution we're driving forward!</span>
+                </div>
+                <div class="image-content">
+                  <img src="assets/static/png/pochta.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="section section-3 w-full">
+              <h3>Stay up-to-speed with the latest updates <br> and token-related news</h3>
+              <div class="social-media-icons">
+                <div class="social-media-x">
+                  <img src="assets/static/png/btn-x.png" alt="X" style="width: 263px; height: 193px;">
+                </div>
+                <div class="social-media-telegram">
+                  <img src="assets/static/png/btn-telegram.png" alt="Telegram" style="width: 263px; height: 193px;">
+                </div>
+              </div>
+            </div>
+          </section>
           <section
             id="distraksjon"
             class="distraction-panel bg-dark-blue text-white flex flex-col justify-center min-fullheight pt-15vmin w-full overflow-hidden"
+            style="background-color: #2E2A65;"
           >
             <div class="g-wrap items-center">
               <div class="g-col g-6@mp mx-auto relative">
-                <h2
-                  class="font-macula-solid text-28 leading-36 m:text-40 m:leading-48 l:text-56 l:leading-64 relative text-center mb-20 l:mb-30"
-                >
-                  Roadmap
-                </h2>
-                <!-- 
-
-#######################################################################
-
-
-
-Roadmap
-
-
-
-#######################################################################
-                 -->
+                <div class="roadmap-container">
+                  <h2 class="text-28 leading-36 m:text-40 m:leading-48 l:text-56 l:leading-64 relative text-center mb-20 l:mb-30">Roadmap</h2>
+                  <div class="content">
+                    <div class="side-left">
+                      <div class="cart cart-1">
+                        <h3 class="cart-title">Phase 1</h3>
+                        <p class="text">
+                          Launch an official website with comprehensive project details.
+                        </p>
+                        <div class="image-wrapper">
+                          <img src="assets/static/png/btn-plus.png" onclick="togglePhases('popup-phase-1')()" alt="+">
+                        </div>
+                        <div class="popup-phase hidden" id="popup-phase-1">
+                          <div class="container">
+                            <h1 class="title">Phase 1</h1>
+                            <div class="content">
+                              <div class="side-left">
+                                <img src="assets/static/png/phase-1.png" alt="web-creation">
+                              </div>
+                              <ol class="side-right">
+                                <li class="text-part">1. Website and Content Creation: Launch an official website with comprehensive project details.</li>
+                                <li class="text-part">2. Social Media Verification: Secure verification for our project's accounts on Twitter.</li>
+                                <li class="text-part">3. Dextools/Dexscreener Verification: Achieve verification on leading crypto analytics platforms.</li>
+                                <li class="text-part">4. Marketing Push: Initiate a targeted marketing campaign on Telegram and X.</li>
+                                <li class="text-part">5. Community Milestone: Reach 1,000 $RAILS holders.</li>
+                              </ol>
+                            </div>
+                            <button class="btn-close get-button" id="btn-close-phase-1" onclick="togglePhases('popup-phase-1')()">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart cart-2">
+                        <h3 class="cart-title">Phase 3</h3>
+                        <p class="text">
+                          Solana Ecosystem Partnerships.
+                        </p>
+                        <div class="image-wrapper">
+                          <img src="assets/static/png/btn-plus.png" onclick="togglePhases('popup-phase-3')()" alt="+">
+                        </div>
+                        <div class="popup-phase hidden" id="popup-phase-3">
+                          <div class="container">
+                            <h1 class="title">Phase 3</h1>
+                            <div class="content">
+                              <div class="side-left">
+                                <img src="assets/static/png/phase-3.png" alt="earth">
+                              </div>
+                              <div class="side-right">
+                                <ol>
+                                  <li class="text-part">1. Continued Marketing Efforts: Maintain marketing strategies.</li><br>
+                                  <li class="text-part">2. Major Holder Milestone: reach 10,000 $RAILS holders</li><br>
+                                  <li class="text-part">3. CEX Listings: List the token on reputable centralized exchanges</li>
+                                </ol>
+                              </div>
+                            </div>
+                            <button class="btn-close get-button" id="btn-close-phase-3" onclick="togglePhases('popup-phase-3')()">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="side-right">
+                      <div class="cart">
+                        <h3 class="cart-title">Phase 2</h3>
+                        <p class="text">
+                          Forge strategic partnerships with Key Opinion Leaders.
+                        </p>
+                        <div class="image-wrapper">
+                          <img src="assets/static/png/btn-plus.png" onclick="togglePhases('popup-phase-2')()" alt="+">
+                        </div>
+                        <div class="popup-phase hidden" id="popup-phase-2">
+                          <div class="container">
+                            <h1 class="title">Phase 2</h1>
+                            <div class="content">
+                              <div class="side-left">
+                                <ol>
+                                  <li class="text-part">1. KOL Partnerships: Forge strategic partnerships with Key Opinion Leaders.</li><br>
+                                  <li class="text-part">2. Social Media Raids: Organize social media raids on X (Twitter).</li><br>
+                                  <li class="text-part">3. Holder Growth: Triple our community size, with 3,000 holders entering the $RAILS.</li>
+                                </ol>
+                              </div>
+                              <div class="side-right">
+                                <img src="assets/static/png/phase-2.png" alt="partnership">
+                              </div>
+                            </div>
+                            <button class="btn-close get-button" id="btn-close-phase-2" onclick="togglePhases('popup-phase-2')()">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="text-center">
                   <button
                     class="hotspot inline-block rounded-100 text-white"
@@ -2182,24 +2307,55 @@ Roadmap
                       <p>Now you are ready, that there is no red rails in the RAILS world. Just import the contract address to view you're holdings and you can track your earnings</p>
                   </div>
               </div>
-          </div>
+            </div>
+
           </div>
          
         </div>
       </div>
-      
+    
     </main>
-    <footer style="height: 100vh;">
-      <!-- 
-        #######################################################################################
 
+    <footer style="position: absolute; width:100%; height: 100vh; top: 1000vh; background-color: #2E2A65;">
+      <div style="display: flex; justify-content: space-between; padding: 4vw;">
+        <div>
+          <img src="assets/img/logo.png">
+        </div>
 
-        Footer
+        <div class="footer-txt">
+          <div style="display: flex; width: 10vw; margin-left: 3vw;">
+            <img src="assets/img/x.png" style="margin-right: 2vw;">            
+            <img src="assets/img/telegram.png">            
+          </div>
 
+          <div style="margin-top: 1vw; z-index: 10;">
+            <p>Disclaimer</p><br>
+            <p>The content here is for informational and entertainment purposes only. $RAILS is a token with no value. The purpose is just to have fun on</p><br>
+            <p>$RAILS © 2024. All rights reserved.</p>
+          </div>
+          
+        </div>
+      </div>
 
-        #######################################################################################
-       -->
+      <div class="mountains-img">
+        <img src="assets/img/mountains.png">
+        
+      </div>
+
+      <div class="train-img">
+        <img src="assets/img/train.png">
+      </div>
     </footer>
+
     <script src="/assets/1707222922/bundle.js" async></script>
+    <script>
+      window.addEventListener('scroll', () => {
+          let el = document.querySelector('g[mask="url(#__lottie_element_37)"] g g:first-child path:first-child')
+          if (el !== null) {
+            el.style.fill = "#867EE7"
+            document.querySelector('g[mask="url(#__lottie_element_37)"] g g:nth-child(2) g path').style.fill = "#2045A5"
+          }
+      })
+    </script>
   </body>
 </html>

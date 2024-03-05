@@ -77264,13 +77264,13 @@ var lottie = lottie$1.exports,
           value: function () {
             var e = urlManager.getDataParam(),
               t =
-                'https://www.facebook.com/sharer/sharer.php?u=https://solrails.fun/?DATA='.concat(
+                'https://www.facebook.com/sharer/sharer.php?u=https://choochooworld.com/?DATA='.concat(
                   e,
                 ),
               i =
-                'https://twitter.com/intent/tweet?url=https://solrails.fun/?DATA='.concat(
+                'https://twitter.com/intent/tweet?url=https://choochooworld.com/?DATA='.concat(
                   e,
-                  '&via=solrails.fun&hashtags=solrails.fun&text=Check out my train set!',
+                  '&via=choochoowld&hashtags=choochooworld&text=Check out my train set!',
                 );
             (this.elFbBtnLink.href = t), (this.elTwBtnLink.href = i);
           },

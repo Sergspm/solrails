@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <title>solrails.fun - A Web Based Wooden Train Track Builder</title>
+    <title>Choo-Choo World - A Web Based Wooden Train Track Builder</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -78,14 +78,22 @@
         document.addEventListener('gesturechange', (e) => preventZoom(e)),
         document.addEventListener('gestureend', (e) => preventZoom(e));
     </script>
-
-    <script type="module" crossorigin src="/index.cdf5916b.js?v17"></script>
+    <style>
+     #component--trackEditor.delay {
+      margin-bottom: 0;
+      top: 50vh
+     }
+     #component--cameraMode.animated {
+      margin-bottom: 15vh;
+     }
+    </style>
+    <script type="module" crossorigin src="/index.cdf5916b.js?v16"></script>
     <link rel="stylesheet" href="/index.a886b8d1.css?v5" />
   </head>
   <body>
     <canvas id="canvas"></canvas>
     <div id="ui">
-      <section class="page" id="page--preloader" style="margin-bottom: 20vh">
+      <section class="page" id="page--preloader" style="margin-bottom: 20vh;">
         <div id="preloader-clouds"></div>
         <div class="page--content">
           <div class="preloader-lottie wiggle-logo">
@@ -195,7 +203,7 @@
                     >
                       <a
                         id="share-fb-btn-link"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://solrails.fun/"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://choochooworld.com/"
                         target="_blank"
                       >
                         <img
@@ -215,7 +223,7 @@
                     >
                       <a
                         id="share-tw-btn-link"
-                        href="https://twitter.com/intent/tweet?url=https://solrails.fun/&via=solrails&hashtags=solrails&text="
+                        href="https://twitter.com/intent/tweet?url=https://choochooworld.com/&via=choochoowld&hashtags=choochooworld&text="
                         target="_blank"
                       >
                         <img
@@ -482,16 +490,12 @@
             </div>
           </section>
           s
-          <footer
-            id="component--footer"
-            class="hide-scrollbar"
-            style="margin-bottom: 10vh"
-          >
+          <footer id="component--footer" class="hide-scrollbar" style="margin-bottom: 10vh;">
             <div class="footer-mode-wrapper hide-scrollbar">
               <section
                 class="component hide-scrollbar"
                 id="component--trackEditor"
-                style="margin-bottom: 15vh"
+                style="margin-bottom: 15vh;"
               >
                 <div class="trackEditor-btn-wrapper">
                   <button
@@ -579,7 +583,7 @@
             <section
               class="component"
               id="component--switch-mode"
-              style="margin-bottom: 15vh"
+              style="margin-bottom: 15vh;"
               data-mouse-hover
             >
               <label class="switch switch-mode" id="switch-mode-btn">
@@ -876,13 +880,13 @@
               </div>
             </button>
             <h2 class="about--summary-title">
-              All aboard for an exciting experience in solrails.fun!
+              All aboard for an exciting experience in Choo-Choo World!
             </h2>
             <div class="about--section-wrapper">
               <div class="about--section">
                 <h4>
-                  In solrails.fun, you create your own vibrant train track in a
-                  beautiful countryside setting brimming with possibility!
+                  In Choo-Choo World, you create your own vibrant train track in
+                  a beautiful countryside setting brimming with possibility!
                 </h4>
                 <p>
                   Immerse yourself in the timeless joy of a wooden train set
@@ -897,13 +901,13 @@
                   Share your 🚂 train track masterpiece with friends and family
                 </h4>
                 <p>
-                  The fun at solrails.fun World doesn’t stop there. Follow
-                  @solrails.fun on
+                  The fun at Choo-Choo World doesn’t stop there. Follow
+                  @choochoowld on
                   <a
                     style="--delay: 0s"
                     data-mouse-hover
                     target="_blank"
-                    href="https://twitter.com/solrails.fun"
+                    href="https://twitter.com/choochoowld"
                     >Twitter</a
                   >
                   and
@@ -911,7 +915,7 @@
                     style="--delay: 0.1s"
                     data-mouse-hover
                     target="_blank"
-                    href="https://www.instagram.com/solrails.fun/"
+                    href="https://www.instagram.com/choochoowld/"
                     >Instagram</a
                   >
                   to keep updated on the exciting developments we will continue
@@ -922,7 +926,82 @@
             <div class="about--section-wrapper">
               <h3>About</h3>
               <div class="about--section">
-                <div></div>
+                <div>
+                  <h4>
+                    Choo-Choo World was created and produced by
+                    <a
+                      style="--delay: 0s"
+                      data-mouse-hover
+                      target="_blank"
+                      href="https://lusion.co/"
+                      >Lusion</a
+                    >
+                    .
+                  </h4>
+                  <a
+                    href="https://lab.lusion.dev/"
+                    target="_blank"
+                    data-mouse-hover
+                  >
+                    <span id="about--lab">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="141"
+                        height="30"
+                        fill="none"
+                      >
+                        <g class="lablogo-labs">
+                          <path
+                            fill="#fff"
+                            d="M0 2.5C0 1.12 1.088 0 2.43 0h135.366c1.342 0 2.43 1.12 2.43 2.5v24.75c0 1.38-1.088 2.5-2.43 2.5H2.43c-1.342 0-2.43-1.12-2.43-2.5V2.5Z"
+                          />
+                          <path
+                            fill="#09AFEF"
+                            fill-rule="evenodd"
+                            d="M88.832 8.692H87.11v10.635h1.723v1.772h6.892v-1.772h-6.892V8.692Z"
+                            clip-rule="evenodd"
+                          />
+                          <path
+                            fill="#F34200"
+                            fill-rule="evenodd"
+                            d="M101.672 8.692h1.723v1.772h-1.723v1.773h-1.723v3.545h5.17v-3.545h-1.723v-1.773h1.723v1.773h1.723v8.862h-1.723v-3.545h-5.17V21.1h-1.722v-8.862h1.722v-1.773h1.723V8.692Z"
+                            clip-rule="evenodd"
+                          />
+                          <path
+                            fill="#1BCC6D"
+                            fill-rule="evenodd"
+                            d="M116.236 8.692v1.772h1.723v3.545h-1.723v-3.545h-5.17v3.545h5.17v1.773h-5.17v3.545h5.17v-3.545h1.723v3.545h-1.723v1.772h-6.892V8.692h6.892Z"
+                            clip-rule="evenodd"
+                          />
+                          <path
+                            fill="#FBC400"
+                            fill-rule="evenodd"
+                            d="M127.353 8.692v1.772h1.723v1.773h-1.723v-1.773h-5.169V8.692h5.169Zm-5.169 5.317h-1.723v-3.545h1.723v3.545Zm5.169 1.773v-1.773h-5.169v1.773h5.169v3.545h1.723v-3.545h-1.723Zm-6.892 1.772h1.723v1.773h-1.723v-1.773Zm1.723 1.773h5.169v1.772h-5.169v-1.772Z"
+                            clip-rule="evenodd"
+                          />
+                        </g>
+                        <g fill="#36363A" class="lablogo-dots">
+                          <path
+                            d="M78.496 11.894c0-.869.684-1.572 1.528-1.572s1.529.703 1.529 1.572c0 .868-.685 1.572-1.529 1.572-.844 0-1.528-.704-1.528-1.572ZM78.496 17.897c0-.868.684-1.572 1.528-1.572s1.529.704 1.529 1.572c0 .869-.685 1.573-1.529 1.573-.844 0-1.528-.704-1.528-1.573Z"
+                          />
+                        </g>
+                        <g fill="#36363A" class="lablogo-lusion">
+                          <path
+                            d="M34.745 17.067c.058.733.345 1.323.862 1.772.528.438 1.212.656 2.05.656.736 0 1.327-.16 1.775-.478.46-.331.69-.786.69-1.365 0-.414-.127-.739-.38-.975-.241-.248-.574-.437-1-.567-.424-.13-1.021-.266-1.791-.408-.781-.142-1.453-.325-2.016-.55a3.302 3.302 0 0 1-1.361-1.063c-.345-.473-.517-1.093-.517-1.861 0-.709.178-1.341.534-1.897a3.669 3.669 0 0 1 1.516-1.293c.655-.308 1.402-.461 2.24-.461.862 0 1.631.165 2.31.496.677.33 1.211.786 1.602 1.365.39.579.602 1.24.637 1.985h-1.947c-.069-.638-.339-1.152-.81-1.542-.47-.39-1.068-.585-1.792-.585-.7 0-1.263.16-1.688.479-.414.307-.62.744-.62 1.311 0 .402.12.721.361.957.253.237.586.414 1 .532a20.2 20.2 0 0 0 1.774.39c.781.142 1.453.33 2.016.567a3.341 3.341 0 0 1 1.379 1.046c.356.46.534 1.07.534 1.826a3.51 3.51 0 0 1-.569 1.967c-.379.58-.907 1.034-1.585 1.365-.678.319-1.447.479-2.309.479-.953 0-1.792-.178-2.516-.532-.723-.355-1.292-.845-1.705-1.471-.402-.638-.61-1.365-.62-2.18l1.946.035ZM22.768 15.835V8.639h-1.981v7.09c0 1.772.402 3.12 1.206 4.041.804.922 1.981 1.383 3.532 1.383 1.562 0 2.745-.461 3.55-1.383.815-.922 1.223-2.269 1.223-4.041v-7.09h-1.982v7.196c0 1.17-.23 2.05-.689 2.641-.448.58-1.149.869-2.102.869-.942 0-1.637-.29-2.085-.869-.448-.59-.672-1.471-.672-2.641ZM11.117 8.692v12.407h7.168v-1.808H13.1v-10.6h-1.982ZM46.586 8.692h-1.981v12.407h1.981V8.692Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M60.804 14.896c0 1.205-.247 2.286-.74 3.243a5.558 5.558 0 0 1-2.086 2.251c-.884.544-1.895.816-3.032.816s-2.154-.272-3.05-.816a5.595 5.595 0 0 1-2.068-2.25c-.494-.958-.74-2.04-.74-3.244 0-1.206.246-2.287.74-3.244A5.595 5.595 0 0 1 51.896 9.4c.896-.544 1.913-.816 3.05-.816 1.137 0 2.148.272 3.032.816a5.557 5.557 0 0 1 2.085 2.25c.494.958.74 2.04.74 3.245Zm-9.684 0c0 .862.161 1.642.483 2.34.322.685.77 1.222 1.344 1.612.586.378 1.252.567 1.999.567.747 0 1.407-.189 1.981-.567.586-.39 1.04-.927 1.361-1.613.322-.697.483-1.477.483-2.34 0-.862-.161-1.636-.483-2.321-.321-.698-.775-1.235-1.36-1.613-.575-.39-1.235-.585-1.982-.585-.747 0-1.413.195-2 .585-.574.378-1.021.915-1.343 1.613-.322.685-.483 1.459-.483 2.322Z"
+                            clip-rule="evenodd"
+                          />
+                          <path
+                            d="M63.305 8.692v12.407h1.947v-8.791l5.876 8.791h1.81V8.692H70.99v8.791l-5.875-8.791h-1.81Z"
+                          />
+                        </g>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
                 <p>
                   Inspired by our love of creating fun and engaging experiences
                   that are not merely beautiful to look at, but also promote the
