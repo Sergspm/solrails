@@ -844,3 +844,134 @@
 .popup-phase .text-part {
     font-size: 24px;
 }
+
+.first-block-padding{
+    padding-top: 70vh;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px){
+    .header-navbar{
+        display: none;
+    }
+
+    .first-block-padding{
+        padding-top: 19vh;
+    }
+
+    .tokenomics-title{
+        font-size: 8vw;
+    }
+
+    .card-txt{
+        padding: 2vw;
+        border-radius: 8px;
+        max-width: 90%;
+    }
+
+    .card-sections{
+        padding: 1vw;
+    }
+    
+    .card-sections h2{
+        font-size: 2vw;
+    }
+
+    .card-sections p{
+        font-size: 2.2vw;
+    }
+
+    .section1, .section2, .section3 {
+        width: calc((100% - 40px) / 3);
+    }
+    
+    
+    .section4, .section5 {
+        width: 100%;
+    }
+
+    .blocks{
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .left-card-sections {
+        padding: 3vw 0;
+        border-radius: 8px;
+        margin-bottom: 0;
+    }
+
+    .left-card-sections h2{
+        font-size: 2vw;
+    }
+
+    .left-card-sections p{
+        font-size: 2.5vw;
+    }
+
+    .right-block{
+        padding: 2vw;
+        margin-top: 1vw;
+    }
+
+    .bottom-cards {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 1vw 0;
+        display: block;
+    }
+
+    .card-vertical h2{
+        font-size: 2vw;
+        margin-left: 1vw;
+    }
+
+    .card-vertical p{
+        font-size: 2vw;
+    }
+
+    .card-vertical input{
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .copy-button{
+        width: 3vw;
+    }
+
+    .background-bottom-cards{
+        background-color: #262368;
+    }
+
+    .get-button button{
+        font-size: 4vw;
+        width: 50%;
+        padding: 2vw;
+        border-radius: 16px;
+        margin-bottom: 5vw;
+    }
+
+    .top-vector2{
+        width: 12vw;
+        left: -5vw;
+        top: -40vw;
+    }
+
+    .bot-vector3{
+        display: none;
+    }
+
+    .bot-vector1{
+        width: 12vw;
+        top: 88vw;
+        left: 2vw;
+        z-index: 0;
+    }
+
+    
+    .bot-vector2{
+        width: 14vw;
+        top: 44vw;
+        right: 10vw;
+        z-index: 0;
+    }
+}

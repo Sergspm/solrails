@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <link rel="home" href="/" />
     <link rel="canonical" href="/" />
-    <meta property="og:url" content="/" />
-    <meta name="twitter:url" content="/" />
+    <meta property="og:url" content="RAILS | Railroad Adventures and Interactive Layout Simulator on Solana" />
+    <meta name="twitter:url" content="RAILS | Railroad Adventures and Interactive Layout Simulator on Solana" />
     <meta property="og:locale" content="nb-NO" />
     <title>RAILS | Railroad Adventures and Interactive Layout Simulator on Solana</title>
     <meta name="description" content="" />
@@ -17,13 +17,13 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:title" content="RAILS | Railroad Adventures and Interactive Layout Simulator on Solana" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="RAILS | Railroad Adventures and Interactive Layout Simulator on Solana" />
     <meta
       property="og:image"
       content="/imager/images/1234/banorama_crew_seo_101d7b8599c0cc599ee16e9637ccc19e.jpg"
     />
     <meta name="twitter:title" content="RAILS | Railroad Adventures and Interactive Layout Simulator on Solana" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:description" content="RAILS | Railroad Adventures and Interactive Layout Simulator on Solana  " />
     <meta
       name="twitter:image"
       content="/imager/images/1234/banorama_crew_seo_913c1471c1573d7d89b5967eaa144c7e.jpg"
@@ -1641,7 +1641,7 @@
     <script>
       const togglePhases = popupId => () => document.getElementById(popupId).classList.toggle('hidden')
       const copyToken = (src, popup) => {
-        let value = document.getElementById(src).value
+        let value = '2hu6ctJyYjdCUpwcE7S67QpCa1UGbmQwe7eyBjKdCpzu';
         navigator.clipboard.writeText(value)
         popup = document.getElementById(popup)
         popup.classList.add('copied')
@@ -1727,7 +1727,7 @@
       data-component="PageHeader"
       data-reveal="show"
     >
-      <div class="b-header__inner">
+      <div class="b-header__inner header-navbar">
         <nav>
           <a href="#tokenomics-block" style="text-shadow: 2px 4px #665AFA;">Tokenomics</a>
 
@@ -1744,8 +1744,8 @@
       <div class="w-full">
         <h1 class="sr-only">$RAILS</h1>
         <div data-component="Frontpage" class="w-full" data-reveal="show" style="position: absolute; top: 100vh;">
-          <section style="width: 100%; height: 150vh; background-image: url('/assets/static/png/background.png'); background-size: contain; background-repeat: no-repeat; background-position: top;">
-            <div style="padding-top: 70vh">
+          <section style="width: 100%; height: 150vh; background-image: url('/assets/static/png/background.png'); background-size: contain; background-repeat: no-repeat; background-position: top;" class="">
+            <div class="first-block-padding">
               <span style="position: absolute; top: 50vh;" id="tokenomics-block"></span>
               <h1 class="tokenomics-title">Tokenomics</h1>
 
@@ -1774,44 +1774,46 @@
                     <p>Burned Forever</p>
                 </div>
               </div>
-
-              <div class="bottom-cards">
-                <div class="blocks left-block" style="background-image: radial-gradient(circle at 100% 0%, #342a48, #000212 60%);">
-                    <div class="left-card-sections">
-                        <h2>Marketing</h2>
-                        <p>5 %</p>
-                    </div>
-                    <div class="left-card-sections">
-                        <h2>Partnerships</h2>
-                        <p>5 %</p>
-                    </div>
-                    <div class="left-card-sections">
-                        <h2>Cex listings</h2>
-                        <p>5 %</p>
-                    </div>
-                </div>
-                <div class="gap"></div>
-                <div class="blocks right-block" style="background-image: radial-gradient(circle at 0% 0%, #342a48, #000212 60%);">
-                    <div class="right-card-sections card-vertical">
-                      <h2>Mint Address:</h2>
-                      <input type="button" id="token-src" value="DjKXdLpTTJKRX...tLa3aq1XZJju" onclick="copyToken(this.id, 'copied-popup')">
-                      <img src="assets/copy.png" class="copy-button" onclick="copyToken('token-src', 'copied-popup')">
-                      <div class="copied-message" id="copied-popup">
-                        <img src="assets/copy.png" alt="">
-                        copied
+              <div class="background-bottom-cards">
+                <div class="bottom-cards">
+                  <div class="blocks left-block" style="background-image: radial-gradient(circle at 100% 0%, #342a48, #000212 60%);">
+                      <div class="left-card-sections">
+                          <h2>Marketing</h2>
+                          <p>5 %</p>
                       </div>
-                    </div>
-                    <div class="right-card-sections card-vertical" style="margin-top: 20px;">
-                        <img src="assets/img/3.png" class="top-vector3">
-                        <img src="assets/img/2.png" class="top-vector2">
-                        <h2>Token  Allocation</h2>
-                        <p>85 % LIQUIDITY</p>
-                        <img src="assets/img/1.png" class="top-vector1">
-                    </div>
+                      <div class="left-card-sections">
+                          <h2>Partnerships</h2>
+                          <p>5 %</p>
+                      </div>
+                      <div class="left-card-sections">
+                          <h2>Cex listings</h2>
+                          <p>5 %</p>
+                      </div>
+                  </div>
+                  <div class="gap"></div>
+                  <div class="blocks right-block" style="background-image: radial-gradient(circle at 0% 0%, #342a48, #000212 60%);">
+                      <div class="right-card-sections card-vertical">
+                        <h2>Mint Address:</h2>
+                        <input type="button" id="token-src" value="2hu6ctJyYjdC...bmQwe7eyBjKdCpzu" onclick="copyToken(this.id, 'copied-popup')">
+                        <img src="assets/copy.png" class="copy-button" onclick="copyToken('token-src', 'copied-popup')">
+                        <div class="copied-message" id="copied-popup">
+                          <img src="assets/copy.png" alt="">
+                          copied
+                        </div>
+                      </div>
+                      <div class="right-card-sections card-vertical">
+                          <img src="assets/img/3.png" class="top-vector3">
+                          <img src="assets/img/2.png" class="top-vector2">
+                          <h2>Token  Allocation</h2>
+                          <p>85 % LIQUIDITY</p>
+                          <img src="assets/img/1.png" class="top-vector1">
+                      </div>
+                  </div>
                 </div>
               </div>
+              
               <div class="get-button" style="background-image: radial-gradient(circle at 50% -5%, #0c0c2c, #262368 80%);">
-                <button> Get $RAILS Now </button>
+                <button><a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2hu6ctJyYjdCUpwcE7S67QpCa1UGbmQwe7eyBjKdCpzu">Get $RAILS Now</a>  </button>
               </div>
           </section>
           <section
@@ -2111,10 +2113,10 @@
               <h3>Stay up-to-speed with the latest updates <br> and token-related news</h3>
               <div class="social-media-icons">
                 <div class="social-media-x">
-                  <img src="assets/static/png/btn-x.png" alt="X" style="width: 263px; height: 193px;">
+                  <a href="https://twitter.com/solanarails"><img src="assets/static/png/btn-x.png" alt="X" style="width: 263px; height: 193px;"></a>
                 </div>
                 <div class="social-media-telegram">
-                  <img src="assets/static/png/btn-telegram.png" alt="Telegram" style="width: 263px; height: 193px;">
+                  <a href="https://t.me/solrails"><img src="assets/static/png/btn-telegram.png" alt="Telegram" style="width: 263px; height: 193px;"></a>
                 </div>
               </div>
             </div>
@@ -2329,9 +2331,9 @@
           <img src="assets/img/logo.png">
         </div>
         <div class="footer-txt">
-          <div style="display: flex; width: 10vw; margin-left: 3vw;">
-            <img src="assets/img/x.png" style="margin-right: 2vw;">            
-            <img src="assets/img/telegram.png">            
+          <div style="display: flex; width: 17vw; margin-left: 3vw;">
+            <a href="https://twitter.com/solanarails"  style="margin-right: 2vw;"><img src="assets/img/x.png">  </a>          
+            <a href="https://t.me/solrails"><img src="assets/img/telegram.png"></a>         
           </div>
           <div style="margin-top: 1vw; z-index: 10;">
             <p>Disclaimer</p><br>
