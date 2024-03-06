@@ -50304,8 +50304,8 @@ for (
           childrens: [
             {
               type: 'colorPalette_0',
-              colors: ['#ef4a4a', '#6e62ea', '#45d5ef', '#ffd857'],
-              btnImg: ''.concat(trackColorsImgPath, 'color_0.png'),
+              colors: ['#00EA5D', '#20FFC9', '#34F97F', '#026D33'],
+              btnImg: ''.concat(trackColorsImgPath, 'color_4.png'),
             },
             {
               type: 'colorPalette_1',
